@@ -133,7 +133,7 @@ public class Truck: Vehicle {
 	
 	override public init(licensePlate: String, colour: String) {
 		//Constructor override
-		super.init(licensePlate: "", colour: colour)
+		super.init(licensePlate: licensePlate, colour: colour)
 		_numberOfDoors = 2
 		_numberOfTires = 8
 		_maxSpeed = 200
