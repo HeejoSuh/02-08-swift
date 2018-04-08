@@ -1,3 +1,5 @@
+
+
 //----------------------------------------------------------------
 //----------------------------------------------------------------
 //
@@ -136,7 +138,6 @@ public class Truck: Vehicle {
 		super.init(licensePlate: licensePlate, colour: colour)
 		_numberOfDoors = 2
 		_numberOfTires = 8
-		_maxSpeed = 200
 	}
 	
 	override func Accelerate(amount: Double) {
@@ -173,5 +174,6 @@ let truck2: Truck = Truck(licensePlate: "ABC1234", colour: "Grey")
 truck2.Accelerate(amount: 100)
 print("Accelerated 100")
 print(truck2.ALL())
+
 
 
